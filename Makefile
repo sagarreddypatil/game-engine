@@ -1,7 +1,7 @@
 all: cmake
 
 run:
-	./build/Engine
+	cd build && ./Engine
 
 cmake: build
 	cd build && cmake .. -GNinja

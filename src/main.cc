@@ -1,7 +1,8 @@
-#include <cstdio>
+#include "renderer.hh"
 
 int main()
 {
-    printf("Hello, World!\n");
+    VulkanLow renderer("Vulkan Low");
+    renderer.render_loop();
     return 0;
 }
